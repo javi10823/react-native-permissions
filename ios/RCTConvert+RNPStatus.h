@@ -28,8 +28,7 @@ typedef NS_ENUM(NSInteger, RNPType) {
     RNPTypePhoto,
     RNPTypeContacts,
     RNPTypeNotification,
-    RNPTypeBackgroundRefresh,
-    RNPTypeMotion
+    RNPTypeBackgroundRefresh
 };
 
 @interface RCTConvert (RNPStatus)
